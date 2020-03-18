@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W95szFwdNnkUGpTBa6glU0cwf9" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
+      <recent name="C:\Users\Egor\PycharmProjects\obsinv\src\components\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.йцуйцу.html">
+    <configuration name="йцуйцу.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/obsinv/public/йцуйцу.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="teest.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/obsinv/public/teest.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.йцуйцу.html" />
+        <item itemvalue="JavaScript Debug.teest.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="" />
+      <created>1578549180253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578549180253</updated>
+      <workItem from="1578549185934" duration="2080000" />
+      <workItem from="1578926817086" duration="168000" />
+      <workItem from="1578986979835" duration="4112000" />
+      <workItem from="1579068398766" duration="12403000" />
+      <workItem from="1579507042866" duration="6804000" />
+      <workItem from="1579591426768" duration="7540000" />
+      <workItem from="1579671918436" duration="3720000" />
+      <workItem from="1580197963608" duration="4365000" />
+      <workItem from="1580291562881" duration="1632000" />
+      <workItem from="1580451611109" duration="1425000" />
+      <workItem from="1580882466967" duration="5430000" />
+      <workItem from="1580914276049" duration="256000" />
+      <workItem from="1581331341975" duration="720000" />
+      <workItem from="1581333596578" duration="11654000" />
+      <workItem from="1581404490036" duration="3721000" />
+      <workItem from="1581425149566" duration="4485000" />
+      <workItem from="1581501359585" duration="727000" />
+      <workItem from="1581504293546" duration="3000" />
+      <workItem from="1581510758641" duration="6759000" />
+      <workItem from="1581574047691" duration="3958000" />
+      <workItem from="1581661123049" duration="8162000" />
+      <workItem from="1581932422184" duration="2266000" />
+      <workItem from="1582024737074" duration="679000" />
+      <workItem from="1582122544228" duration="594000" />
+      <workItem from="1582179335175" duration="3727000" />
+      <workItem from="1582207101981" duration="49000" />
+      <workItem from="1582265601455" duration="12324000" />
+      <workItem from="1582536228442" duration="2498000" />
+      <workItem from="1582875591084" duration="7762000" />
+      <workItem from="1583129894436" duration="3611000" />
+      <workItem from="1583233539809" duration="79000" />
+      <workItem from="1583500922343" duration="239000" />
+      <workItem from="1583734288148" duration="2989000" />
+      <workItem from="1583761188117" duration="1422000" />
+      <workItem from="1583907698414" duration="462000" />
+      <workItem from="1583908450391" duration="9915000" />
+      <workItem from="1583998432660" duration="610000" />
+      <workItem from="1584001708438" duration="725000" />
+      <workItem from="1584511988900" duration="893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

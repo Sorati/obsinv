@@ -1,0 +1,21 @@
+.searcher input[type=text]{
+  /*width: 70%;*/
+  /*min-width: 300px;*/
+  height: 50px;
+  font-size: 2rem;
+  padding: 5px 30px;
+  background-color: #3d424b;
+  color: #8293a4;
+  border: 0;
+}
+
+.searcher button{
+  background-color: #353a43;
+  color: #8293a4;
+  border: 0;
+  height: 60px;
+  padding: 5px 30px;
+  font-size: 2rem;
+  border-radius: 0 50px 50px 0;
+}
+

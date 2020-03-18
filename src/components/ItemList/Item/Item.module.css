@@ -1,0 +1,20 @@
+.row{
+    display: flex;
+    margin: 1px 0;
+    justify-content: space-around;
+}
+
+.row div{
+    padding: 10px;
+}
+
+.row_even{
+    background-color: #3d424b;
+}
+
+.row_not_even{
+    background-color: #353a43;
+}
+
+
+

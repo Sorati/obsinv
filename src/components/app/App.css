@@ -1,0 +1,36 @@
+/*@import url("~normalize.css");*/
+@import "../../reset.css";
+body {
+  background-color: #282c34;
+  color: #61dafb;
+  font-size: 1em;
+}
+
+::-webkit-scrollbar{
+  width:20px;
+  display: block;
+  position: relative;
+  border: 1px solid #353a43;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #3d424b;
+}
+
+::-webkit-scrollbar-button{
+  background-color: #3d424b;
+}
+
+::-webkit-scrollbar-button:start{
+  border-radius: 10px 10px 0 0;
+}
+
+::-webkit-scrollbar-button:end{
+  border-radius: 0 0 10px 10px;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+}
