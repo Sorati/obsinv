@@ -12,6 +12,11 @@ input[type="text"] {
     border: 0;
 }
 
+.sidebar form{
+    display: flex;
+    flex-direction: column;
+}
+
 label {
 
 }
