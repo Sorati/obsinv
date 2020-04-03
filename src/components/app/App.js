@@ -28,9 +28,9 @@ class App extends React.PureComponent {
                         <Route exact path={'/Main'} render={ () =>  <Main/> }/>
                         <Route exact path={'/AllElements'} render={ () =>  <ItemList date={this.props}/> }/>
                         <Route exact path={'/Add'} render={ () =>  <Modal/> }/>
-                        {/*{let x = props.mock.eny.map(q => <Item>)}*/}
                         <Sidebar/>
                     </div>
+
                 </BrowserRouter>
             </div>
         )

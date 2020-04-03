@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.module.css" afterDir="false" />
     </list>
@@ -29,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -41,12 +46,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
       <recent name="C:\Users\Egor\PycharmProjects\obsinv\src\components\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,6 +132,8 @@
       <workItem from="1584542632360" duration="515000" />
       <workItem from="1584600091250" duration="1526000" />
       <workItem from="1584606890665" duration="2110000" />
+      <workItem from="1584685456696" duration="1196000" />
+      <workItem from="1585896665150" duration="13121000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,7 @@ const Sidebar = ()=> {
     let sideBar = React.createRef();
 
     function test() {
-        // let test = sideBar.current.style.display = 'none';
+        // let test = sideBar.current.style.display = 'none'; //обращение к нативному HTML
         console.log("test");
     }
     return(
