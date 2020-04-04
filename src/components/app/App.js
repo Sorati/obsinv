@@ -22,15 +22,16 @@ class App extends React.PureComponent {
         return (
             <div className="App">
                 <BrowserRouter>
-                    <Header/>
-                    <div className="content">
-                        <Route exact path={'/'} render={ () =>  <Main/> }/>
-                        <Route exact path={'/Main'} render={ () =>  <Main/> }/>
-                        <Route exact path={'/AllElements'} render={ () =>  <ItemList date={this.props}/> }/>
-                        <Route exact path={'/Add'} render={ () =>  <Modal/> }/>
-                        <Sidebar/>
-                    </div>
 
+                    <div className="content">
+                        <Header/>
+                        <Route exact path={'/'} render={() => <Main/>}/>
+                        <Route exact path={'/Main'} render={() => <Main/>}/>
+                        <Route exact path={'/AllElements'} render={() => <ItemList date={this.props}/>}/>
+                        <Route exact path={'/Add'} render={() => <Modal/>}/>
+
+                    </div>
+                    <Sidebar/>
                 </BrowserRouter>
             </div>
         )

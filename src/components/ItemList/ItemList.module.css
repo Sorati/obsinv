@@ -1,7 +1,10 @@
 .content{
-  display: flex;
+  display: grid;
+  gap: 3px;
+
+  /*display: flex;*/
   /*justify-content: center;*/
-  flex-grow: 1;
-  flex-direction: column;
-  padding: 10px 0 10px 0;
+  /*flex-grow: 1;*/
+  /*flex-direction: column;*/
+  /*padding: 10px 0 10px 0;*/
 }
