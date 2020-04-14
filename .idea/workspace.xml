@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mocks/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/searcher/Searcher.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/searcher/Searcher.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +135,10 @@
       <workItem from="1584606890665" duration="2110000" />
       <workItem from="1584685456696" duration="1196000" />
       <workItem from="1585896665150" duration="13379000" />
-      <workItem from="1585981093489" duration="10324000" />
+      <workItem from="1585981093489" duration="11225000" />
+      <workItem from="1586160735437" duration="5197000" />
+      <workItem from="1586416523282" duration="899000" />
+      <workItem from="1586857843561" duration="5892000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
@@ -143,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585921858801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add keys in items array and fix grid">
+      <created>1586006493262</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586006493262</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Edit items end next time i will need add keys in item array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit items end next time i will need add keys in item array" />
+    <MESSAGE value="add keys in items array and fix grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="add keys in items array and fix grid" />
   </component>
 </project>

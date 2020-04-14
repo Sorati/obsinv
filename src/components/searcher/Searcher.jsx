@@ -3,7 +3,7 @@ import style from './Searcher.module.css';
 
 function Searcher () {
    return (
-       <form className={style.searcher}>
+       <form onSubmit={(evt) => {evt.preventDefault()}} className={style.searcher}>
            <input type="text"/>
            <button>search</button>
        </form>
