@@ -28,7 +28,7 @@ class App extends React.PureComponent {
                         <Route exact path={'/'} render={() => <Main/>}/>
                         <Route exact path={'/Main'} render={() => <Main/>}/>
                         <Route exact path={'/AllElements'} render={() => <ItemList date={this.props}/>}/>
-                        <Route exact path={'/Add'} render={() => <ModalAddItems/>}/>
+                        <Route exact path={'/Add'} render={() => <ModalAddItems date={this.props}/>}/>
 
                     </div>
                     <Sidebar/>

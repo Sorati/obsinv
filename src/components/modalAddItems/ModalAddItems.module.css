@@ -45,8 +45,9 @@
 	max-width: 400px;
 	min-width: 180px;
 	margin: 0 auto;
-	border: 1px solid #3C1C78;
-	background-color: #16013E;
+    border-radius: 5px;
+	border: 0 solid #3C1C78;
+	background-color: #3d424b;
 	z-index: 10;
 }
 
@@ -57,13 +58,13 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: 0;
+    border-radius: 10px;
     margin: 0;
     display: block;
     width: 100%;
     padding: 12px 55px 15px 15px;
     font-size: 14px;
-    color: #714BB9;
+    color: #8293a4;
 }
 
 .customSelect:after{
@@ -75,10 +76,11 @@
     line-height: 38px;
     content: '\2228';
     text-align: center;
-    color: #714BB9;
+    color: #8293a4;
     font-size: 24px;
-    border-left: 1px solid #3C1C78;
+    border-left: 1px solid #282c34;
     z-index: -1;
+    border-radius: 10px 0 0 10px;
 }
 option{
 	/*background-color: #61dafb;*/

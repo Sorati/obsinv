@@ -2,7 +2,7 @@ const data = {
     pc: [
         {
             id: 1,
-            user: 'Григорий Владимир Владимирович',
+            user: 'Григориев Владимир Владимирович',
             type: 'PC',
             inventory: '01360078',
             ip: '192.168.100.226',
@@ -92,7 +92,7 @@ const data = {
         },
         {
             id: 3,
-            user: 'Григорий Владимир Владимирович',
+            user: 'Григориев Владимир Владимирович',
             type: 'monitor',
             inventory: '01360078',
             location: 'библиотека',
@@ -107,7 +107,7 @@ const data = {
     mouse: [
         {
             id: 1,
-            user: 'Григорий Владимир Владимирович',
+            user: 'Григориев Владимир Владимирович',
             type: 'mouse',
             inventory: '01360078',
             location: '404',
@@ -151,7 +151,7 @@ const data = {
     keyboard: [
         {
             id: 1,
-            user: 'Григорий Владимир Владимирович',
+            user: 'Григориев Владимир Владимирович',
             type: 'keyboard',
             inventory: '01360078',
             location: '404',
@@ -191,6 +191,38 @@ const data = {
                 model: 'K100'
             }
         },
+    ],
+    person: [
+        {
+            id: 1,
+            type: 'staff',
+            fullName: 'Миронинко Валентина Николаевна',
+            position: '-',
+            HeadOfDepartment: false,
+            photo: '-',
+            location: '203',
+            department: 'Научно просветительский отдел'
+        },
+        {
+            id: 2,
+            type: 'staff',
+            fullName: 'Людмила Манкевич Петровна',
+            position: '-',
+            HeadOfDepartment: true,
+            photo: '-',
+            location: '401',
+            department: 'Издательский полиграфический сектор'
+        },
+        {
+            id: 3,
+            type: 'staff',
+            fullName: 'Григориев Владимир Владимирович',
+            position: 'Научный сотрудник',
+            HeadOfDepartment: false,
+            photo: '-',
+            location: '404',
+            department: 'Отдел научно исследовательской работы'
+        }
     ]
 }
 
