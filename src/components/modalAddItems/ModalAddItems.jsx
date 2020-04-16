@@ -25,13 +25,25 @@ class ModalAddItems extends React.PureComponent{
             <div className={style.window}>
                 <NavLink className={style.btnClose} to={'/'}>X</NavLink>
                 <div className={style.content}>
-                    <label htmlFor="styledSelect1" className={style.customSelect}>
-                        <select name="options" id="styledSelect1" >
-                            <option value="none" hidden>-</option>
-                            {this._getTypeList()}
-                        </select>
-                    </label>
+                        <form action="POST" onSubmit={(evn)=>{evn.preventDefault()}}>
+                            <label htmlFor="styledSelect1" className={style.customSelect}>
+                                <select name="options" id="styledSelect1" >
+                                    <option value="none" hidden>-</option>
+                                    {this._getTypeList()}
+                                </select>
+                            </label>
+                            <label>Ф.И.О.<input type="text"/></label>
+                            <label>Отдел<input type="text"/></label>
+                            <label>Должность<input type="text"/></label>
+                            <label>Кабинет<input type="text"/></label>
 
+                            <label>Зав отдела<input type="checkbox"/></label>
+
+                            <input type="file" name="file" id="file" className={style.inputfile}/>
+                            <label htmlFor="file">Выберите фото</label>
+
+                            <button onSubmit={(evn)=>{evn.preventDefault()}}>Создать</button>
+                        </form>
                 </div>
             </div>
         </div>

@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mocks/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mocks/offers.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +135,8 @@
       <workItem from="1586160735437" duration="5197000" />
       <workItem from="1586416523282" duration="899000" />
       <workItem from="1586857843561" duration="6123000" />
-      <workItem from="1586935668346" duration="10458000" />
+      <workItem from="1586935668346" duration="10584000" />
+      <workItem from="1587019366094" duration="9660000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586873149489</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactoring Select control in modal window">
+      <created>1586959587320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586959587320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +189,7 @@
     <MESSAGE value="Edit items end next time i will need add keys in item array" />
     <MESSAGE value="add keys in items array and fix grid" />
     <MESSAGE value="Refactoring modal window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring modal window" />
+    <MESSAGE value="Refactoring Select control in modal window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Select control in modal window" />
   </component>
 </project>
