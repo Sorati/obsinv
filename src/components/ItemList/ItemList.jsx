@@ -12,14 +12,16 @@ const ItemList = (props) => {
         let items = [];
         for (let type in list) {
             const listElement = list[type];
-            if (type !== 'person') {
+            if (type === 'person') {
                 for (let item of listElement) {
                     // console.log(type)
                     items.push(
                         <Item
                             type={`${item.type}`}
-                            name={`${item.user}`}
-                            inventory={`${item.inventory}`}
+                            // name={`${item.user}`}
+                            name={`${item.fullName}`} //person
+                            // inventory={`${item.inventory}`}
+                            inventory={`${item.location}`} //person
                             key={`${type}${item.id}`}
                         />
                     )

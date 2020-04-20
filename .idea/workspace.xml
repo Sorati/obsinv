@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mocks/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +137,8 @@
       <workItem from="1586857843561" duration="6123000" />
       <workItem from="1586935668346" duration="10584000" />
       <workItem from="1587019366094" duration="10413000" />
-      <workItem from="1587106713904" duration="7407000" />
+      <workItem from="1587106713904" duration="9840000" />
+      <workItem from="1587364271989" duration="17690000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
@@ -173,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587048179804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="can add new person (no script)">
+      <created>1587117345047</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587117345047</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +207,7 @@
     <MESSAGE value="Refactoring modal window" />
     <MESSAGE value="Refactoring Select control in modal window" />
     <MESSAGE value="Added controls in modal window" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added controls in modal window" />
+    <MESSAGE value="can add new person (no script)" />
+    <option name="LAST_COMMIT_MESSAGE" value="can add new person (no script)" />
   </component>
 </project>

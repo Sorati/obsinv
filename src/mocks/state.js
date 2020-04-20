@@ -201,7 +201,8 @@ const data = {
             HeadOfDepartment: false,
             photo: '-',
             location: '203',
-            department: 'Научно просветительский отдел'
+            department: 'Научно просветительский отдел',
+            description: ''
         },
         {
             id: 2,
@@ -211,7 +212,8 @@ const data = {
             HeadOfDepartment: true,
             photo: '-',
             location: '401',
-            department: 'Издательский полиграфический сектор'
+            department: 'Издательский полиграфический сектор',
+            description: ''
         },
         {
             id: 3,
@@ -221,7 +223,8 @@ const data = {
             HeadOfDepartment: false,
             photo: '-',
             location: '404',
-            department: 'Отдел научно исследовательской работы'
+            department: 'Отдел научно исследовательской работы',
+            description: ''
         }
     ]
 }
