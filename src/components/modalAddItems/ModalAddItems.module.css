@@ -31,33 +31,12 @@
 .content {
     /*background-color: #b3d4fc;*/
 }
-.content textarea{
-    resize: none;
-}
-.content input[type="text"],
-.content input[type="checkbox"],
-.content textarea
-{
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 1.2rem;
-    padding: 5px 15px;
-    background-color: #3d424b;
-    color: #8293a4;
-    border: 0;
-    margin: 10px 0;
-}
+
 .content form{
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
-
-.content__person{
-    width: 350px;
-}
-
-/*********************************************************/
 
 .customSelect {
 	position: relative;
@@ -101,91 +80,4 @@
     border-left: 1px solid #282c34;
     z-index: -1;
     border-radius: 10px 0 0 10px;
-}
-
-option:hover{
-	color: #0d191d;
-}
-
-.general{
-    display: flex;
-    flex-direction: column;
-}
-
-.general button{
-    align-self: center;
-    background-color: #353a43;
-    color: #8293a4;
-    border: 0;
-    width: 200px;
-    height: 50px;
-    padding: 5px 30px;
-    margin-top: 10px;
-}
-/*********************************/
-.content input[type="checkbox"] {
-  width: 50px;
-  height: 25px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  background: #b34046;
-  outline: none;
-  border-radius: 50px;
-  box-shadow: inset 0 0 5px rgba(0,0,0, .2);
-  transition: 0.5s;
-  position: relative;
-}
-.content input:checked[type="checkbox"] {
-  background: #8df472;
-}
-.content input[type="checkbox"]::before {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  background: #fff;
-  transform: scale(1.1);
-  box-shadow: 0 2px 5px rgba(0,0,0, .2);
-  transition: 0.5s;
-}
-.content input:checked[type="checkbox"]::before {
-  left: 25px;
-}
-
-.checkbox{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 150px;
-}
-
-.checkbox span{
-    margin: 0 10px;
-}
-/*********************************/
-
-.inputfile {
-	width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	z-index: -1;
-}
-
-.inputfile + label {
-    color: #8293a4;
-    background-color: #3d424b;
-    max-width: 200px;
-    padding: 10px 5px;
-}
-.inputfile:focus + label,
-.inputfile + label:hover {
-    background-color: #3d424b;
-}
-
-.inputfile + label {
-	cursor: pointer;
 }

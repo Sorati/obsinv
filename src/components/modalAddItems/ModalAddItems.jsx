@@ -1,6 +1,9 @@
 import React from "react";
 import style from './ModalAddItems.module.css'
 import {NavLink} from "react-router-dom";
+import Person from "./person/person";
+import General from "./general/general";
+import Hardware from "./hardware/hardware";
 
 class ModalAddItems extends React.PureComponent {
     constructor(props) {
@@ -8,7 +11,9 @@ class ModalAddItems extends React.PureComponent {
         this.data = props.date.data;
         this.getForm = React.createRef();
         this.state = {
-            typeItems: ''
+            typeItems: '',
+            description: '',
+
         }
     }
 
@@ -66,6 +71,10 @@ class ModalAddItems extends React.PureComponent {
 
     }
 
+    componentWillUnmount() {
+
+    }
+
     render() {
         return (
             <div className={style.outsude}>
@@ -75,34 +84,15 @@ class ModalAddItems extends React.PureComponent {
                         <form ref={this.getForm} action="POST" onSubmit={(evn) => {
                             evn.preventDefault()
                         }}>
-
                             <label htmlFor="styledSelect1" className={style.customSelect}>
                                 <select name="options" id="styledSelect1">
                                     <option value="none" hidden>-</option>
                                     {this._getTypeList()}
                                 </select>
                             </label>
-
-                            <div className={style.content__person}>
-                                <label><input type="text" placeholder={'Ф.И.О.'}/></label>
-                                <label><input type="text" placeholder={'Отдел'}/></label>
-                                <label><input type="text" placeholder={'Должность'}/></label>
-                                <label><input type="text" placeholder={'Кабинет'}/></label>
-                                <label className={style.checkbox}><input type="checkbox"/>
-                                    <span>Зав отдела</span></label>
-                            </div>
-                            <div className={style.general}>
-                                <label><textarea name="description" rows="10"
-                                                 placeholder={'Описание'}></textarea></label>
-                                <input type="file" name="file" id="file" className={style.inputfile}/>
-                                <label htmlFor="file">Выберите фото</label>
-                                {/*<button onSubmit={(evn) => {
-                                    evn.preventDefault()
-                                }}>Создать
-                                </button>*/}
-
-                                <button onClick={this._addNewPerson.bind(this)}>Тык</button>
-                            </div>
+                            {/*<Person/>*/}
+                            <Hardware/>
+                            <General/>
                         </form>
                     </div>
                 </div>

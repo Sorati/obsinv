@@ -1,0 +1,56 @@
+.content__general{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto 0 auto;
+}
+
+.content__general button{
+    align-self: center;
+    background-color: #353a43;
+    color: #8293a4;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 5px 30px;
+    margin-top: 20px;
+}
+
+.content__general textarea {
+    resize: none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    background-color: #3d424b;
+    color: #8293a4;
+    border: 0;
+    margin: 10px 0;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.inputfile + label {
+    margin: auto;
+    width: 190px;
+    text-align: center;
+
+    color: #8293a4;
+    background-color: #3d424b;
+    max-width: 200px;
+    padding: 10px 5px;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #3d424b;
+}
+
+.inputfile + label {
+	cursor: pointer;
+}

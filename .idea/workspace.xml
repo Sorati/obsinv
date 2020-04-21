@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/general/general.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/general/general.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/hardware/hardware.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/hardware/hardware.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/person.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/person.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mocks/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -138,7 +143,8 @@
       <workItem from="1586935668346" duration="10584000" />
       <workItem from="1587019366094" duration="10413000" />
       <workItem from="1587106713904" duration="9840000" />
-      <workItem from="1587364271989" duration="17690000" />
+      <workItem from="1587364271989" duration="19271000" />
+      <workItem from="1587457756823" duration="14243000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
@@ -182,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587117345047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="get properties to person">
+      <created>1587392767403</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587392767403</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +221,7 @@
     <MESSAGE value="Refactoring Select control in modal window" />
     <MESSAGE value="Added controls in modal window" />
     <MESSAGE value="can add new person (no script)" />
-    <option name="LAST_COMMIT_MESSAGE" value="can add new person (no script)" />
+    <MESSAGE value="get properties to person" />
+    <option name="LAST_COMMIT_MESSAGE" value="get properties to person" />
   </component>
 </project>
