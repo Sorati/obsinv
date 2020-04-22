@@ -1,9 +1,9 @@
 import React from "react";
-import style from './hardware.module.css';
+import style from './Computer.module.css';
 
-const Hardware = () => {
+const Computer = () => {
     return (
-        <div className={style.content__Hardware}>
+        <div className={style.content__Computer}>
             <div>
                 <label><input type="text" placeholder={'Рабочее место сотрудника'}/></label>
                 <label><input type="text" placeholder={'Ответственный'}/></label>
@@ -36,4 +36,4 @@ const Hardware = () => {
     )
 };
 
-export default Hardware;
+export default Computer;

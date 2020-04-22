@@ -1,0 +1,23 @@
+.content__Hardware{
+    display: flex;
+}
+
+.content__Hardware>div{
+    margin: 10px;
+}
+
+.content__Hardware input[type="text"]{
+    min-width: 350px;
+}
+
+.content__Hardware input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    background-color: #3d424b;
+    color: #8293a4;
+    border: 0;
+    margin: 10px 0;
+}
+

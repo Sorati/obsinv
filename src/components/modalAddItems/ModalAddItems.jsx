@@ -1,9 +1,10 @@
 import React from "react";
 import style from './ModalAddItems.module.css'
 import {NavLink} from "react-router-dom";
-import Person from "./person/person";
-import General from "./general/general";
-import Hardware from "./hardware/hardware";
+import Person from "./person/Person";
+import General from "./general/General";
+import Hardware from "./hardware/Hardware";
+import Computer from "./Computer/Computer"
 
 class ModalAddItems extends React.PureComponent {
     constructor(props) {
@@ -11,10 +12,35 @@ class ModalAddItems extends React.PureComponent {
         this.data = props.date.data;
         this.getForm = React.createRef();
         this.state = {
-            typeItems: '',
-            description: '',
-
+            chooseCategory: ''
         }
+    }
+
+    _getCategory() {
+        const chooseCategory = this.state.chooseCategory;
+        const draw = [];
+        switch (chooseCategory) {
+            case "pc":
+                draw.push(<Computer key={'pc'}/>);
+                break;
+            case "monitor":
+                draw.push(<Hardware key={'monitor'}/>);
+                break;
+            case "mouse":
+                draw.push(<Hardware key={'mouse'}/>);
+                break;
+            case "keyboard":
+                draw.push(<Hardware key={'keyboard'}/>);
+                break;
+            case "person":
+                draw.push(<Person key={'person'}/>);
+                break;
+            default : {}
+        }
+        if(draw[0]){
+            draw.push(<General key={'general'}/>);
+        }
+        return draw
     }
 
     _getTypeList() {
@@ -25,54 +51,8 @@ class ModalAddItems extends React.PureComponent {
         return list
     }
 
-    _isEmpty(valueStr) {
-        if (valueStr.length > 0) {
-            return valueStr
-        } else {
-            return '---'
-        }
-    }
-    _addNewPerson() {
-        let form = this.getForm.current;
-        let newItem = [];
-        for (let property of form.querySelectorAll('input')) {
-            switch (property.type) {
-                case 'checkbox':
-                    newItem.push(property.checked);
-                    break;
-                case  'file': {
-                    let valueFile = typeof property.files[0] === 'undefined';
-                    newItem.push(valueFile ? 'ᐈ Изображение отсутствует' : property.files[0].name)
-                }
-                    break;
-                case 'text':
-                    newItem.push(this._isEmpty(property.value));
-                    // if (property.value.length > 0) {
-                    //     newItem.push(property.value);
-                    // } else {
-                    //     newItem.push('---')
-                    // }
-                    break;
-            }
-        }
-        let textarea = form.querySelector('textarea');
-
-        newItem.push(this._isEmpty(textarea.value));
-
-        // if (textarea.value.length > 0) {
-        //     newItem.push(textarea.value)
-        // } else {
-        //     newItem.push('---')
-        // }
-        console.log(newItem);
-    }
-
-    componentDidMount() {
-
-    }
-
-    componentWillUnmount() {
-
+    handlerChooseCategory(evt) {
+        this.setState({chooseCategory : evt.target.value});
     }
 
     render() {
@@ -85,14 +65,15 @@ class ModalAddItems extends React.PureComponent {
                             evn.preventDefault()
                         }}>
                             <label htmlFor="styledSelect1" className={style.customSelect}>
-                                <select name="options" id="styledSelect1">
+                                <select name="options" id="styledSelect1" onChange={(env) => {
+                                    this.handlerChooseCategory(env)
+                                }}>
                                     <option value="none" hidden>-</option>
                                     {this._getTypeList()}
                                 </select>
                             </label>
-                            {/*<Person/>*/}
-                            <Hardware/>
-                            <General/>
+
+                            {this._getCategory()}
                         </form>
                     </div>
                 </div>

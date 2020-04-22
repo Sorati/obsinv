@@ -1,5 +1,5 @@
 import React from "react";
-import style from './person.module.css'
+import style from './Person.module.css'
 
 const Person = () => {
     return (

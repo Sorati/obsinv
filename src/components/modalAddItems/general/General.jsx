@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./general.module.css"
+import style from "./General.module.css"
 
 const General = () => {
     return (
