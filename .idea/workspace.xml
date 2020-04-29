@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/Computer/Computer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modalAddItems/Computer/Computer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/general/general.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/general/General.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/general/general.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/general/General.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/hardware/hardware.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/hardware/Hardware.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/hardware/hardware.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/hardware/Hardware.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/person/person.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/person/person.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +138,12 @@
       <workItem from="1587106713904" duration="9840000" />
       <workItem from="1587364271989" duration="19271000" />
       <workItem from="1587457756823" duration="14344000" />
-      <workItem from="1587535137460" duration="14636000" />
+      <workItem from="1587535137460" duration="16533000" />
+      <workItem from="1587639103350" duration="322000" />
+      <workItem from="1587649419773" duration="68000" />
+      <workItem from="1587716167165" duration="1704000" />
+      <workItem from="1588142182627" duration="778000" />
+      <workItem from="1588153677303" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587478504648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactoring and change &quot;add componetn&quot;">
+      <created>1587563746350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587563746350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

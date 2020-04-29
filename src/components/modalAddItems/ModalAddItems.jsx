@@ -13,7 +13,11 @@ class ModalAddItems extends React.PureComponent {
         this.getForm = React.createRef();
         this.state = {
             chooseCategory: ''
-        }
+        };
+        this.handlerChooseCategory = this.handlerChooseCategory.bind(this);
+        this._getCategory = this._getCategory.bind(this);
+        this._getTypeList = this._getTypeList.bind(this);
+
     }
 
     _getCategory() {
