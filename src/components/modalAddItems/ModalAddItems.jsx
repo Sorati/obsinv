@@ -14,10 +14,18 @@ class ModalAddItems extends React.PureComponent {
         this.state = {
             chooseCategory: ''
         };
+        this.newFieldValue = {};
         this.handlerChooseCategory = this.handlerChooseCategory.bind(this);
         this._getCategory = this._getCategory.bind(this);
         this._getTypeList = this._getTypeList.bind(this);
+        this.CollectValueForm = this.CollectValueForm.bind(this);
+        this._clearFieldValue = this._clearFieldValue.bind(this);
+    }
 
+    _clearFieldValue(){
+        for(let field in this.newFieldValue){
+            delete this.newFieldValue[field]
+        }
     }
 
     _getCategory() {
@@ -37,13 +45,14 @@ class ModalAddItems extends React.PureComponent {
                 draw.push(<Hardware key={'keyboard'}/>);
                 break;
             case "person":
-                draw.push(<Person key={'person'}/>);
+                draw.push(<Person key={'person'} CollectValue={this.CollectValueForm}/>);
                 break;
             default : {}
         }
         if(draw[0]){
             draw.push(<General key={'general'}/>);
         }
+        this._clearFieldValue();
         return draw
     }
 
@@ -57,6 +66,10 @@ class ModalAddItems extends React.PureComponent {
 
     handlerChooseCategory(evt) {
         this.setState({chooseCategory : evt.target.value});
+    }
+
+    CollectValueForm(evt){
+        console.log(`Value:${evt.target.value} Name:${evt.target.name}`)
     }
 
     render() {

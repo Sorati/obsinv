@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +29,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -144,6 +147,7 @@
       <workItem from="1587716167165" duration="1704000" />
       <workItem from="1588142182627" duration="778000" />
       <workItem from="1588153677303" duration="719000" />
+      <workItem from="1588513549995" duration="5859000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
