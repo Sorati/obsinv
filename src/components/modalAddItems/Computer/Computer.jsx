@@ -1,39 +1,37 @@
 import React from "react";
 import style from './Computer.module.css';
 
-const Computer = () => {
-    return (
+class Computer extends React.PureComponent{
+    render() {
+        const {CollectValue} = this.props;
+        return (
         <div className={style.content__Computer}>
             <div>
-                <label><input type="text" placeholder={'Рабочее место сотрудника'}/></label>
-                <label><input type="text" placeholder={'Ответственный'}/></label>
-
-                <label><input type="text" placeholder={'Инвентарный'}/></label>
-                <label><input type="text" placeholder={'Кабинет'}/></label>
+                <label><input name={`user`} type="text" placeholder={'Рабочее место сотрудника'} onChange={CollectValue}/></label>
+                <label><input name={`responsible`} type="text" placeholder={'Ответственный'} onChange={CollectValue}/></label>
+                <label><input name={`inventory`} type="text" placeholder={'Инвентарный'} onChange={CollectValue}/></label>
+                <label><input name={`location`} type="text" placeholder={'Кабинет'} onChange={CollectValue}/></label>
             </div>
-
             <div>
-                <label><input type="text" placeholder={'Процессор'}/></label>
-                <label><input type="text" placeholder={'Оперативная память'}/></label>
-                <label><input type="text" placeholder={'Объем жесткого диска'}/></label>
-                <label><input type="text" placeholder={'Имя компьютера в теся'}/></label>
-                <label><input type="text" placeholder={'IP адрес'}/></label>
-                <label><input type="text" placeholder={'Операционная система'}/></label>
-                {/*<label><input type="text" placeholder={'Доступ в интерент'}/></label>*/}
-                <label className={style.checkbox}><input type="checkbox"/>
+                <label><input name={`cp`} type="text" placeholder={'Процессор'} onChange={CollectValue}/></label>
+                <label><input name={`ram`} type="text" placeholder={'Оперативная память'} onChange={CollectValue}/></label>
+                <label><input name={`hdd`} type="text" placeholder={'Объем жесткого диска'} onChange={CollectValue}/></label>
+                <label><input name={`graphics`} type="text" placeholder={'Графический адаптер'} onChange={CollectValue}/></label>
+                <label><input name={`networkName`} type="text" placeholder={'Имя компьютера в сети'} onChange={CollectValue}/></label>
+                <label><input name={`ip`} type="text" placeholder={'IP адрес'} onChange={CollectValue}/></label>
+                <label><input name={`os`} type="text" placeholder={'Операционная система'} onChange={CollectValue}/></label>
+                <label className={style.checkbox}><input name={`ethernet`} type="checkbox" onChange={CollectValue}/>
                 <span>Доступ в интерент</span></label>
             </div>
-
             <div>
-                <label><input type="text" placeholder={'Наименование'}/></label>
-                <label><input type="text" placeholder={'M/N'}/></label>
-                <label><input type="text" placeholder={'S/N'}/></label>
-                <label><input type="text" placeholder={'P/N'}/></label>
+                <label><input name={`manufacture`} type="text" placeholder={'Наименование'} onChange={CollectValue}/></label>
+                <label><input name={`ModelName`} type="text" placeholder={'M/N'} onChange={CollectValue}/></label>
+                <label><input name={`SerialName`} type="text" placeholder={'S/N'} onChange={CollectValue}/></label>
+                <label><input name={`prodName`} type="text" placeholder={'P/N'} onChange={CollectValue}/></label>
             </div>
-
-
         </div>
     )
-};
+    }
+}
 
 export default Computer;

@@ -17,7 +17,7 @@ const data = {
                 cp: 'i3-4160',
                 hdd: '1 ТБ',
                 graphics: 'Intel HD Graphics 4400',
-                widows: '10 (64)'
+                os: '10 (64)'
             }
         },
         {
@@ -37,7 +37,7 @@ const data = {
                 cp: 'AMD Athlon 64 X2 Dual Core Processor 5000+',
                 hdd: '2TB + 160GB',
                 graphics: 'ATI Radeon X1200 series',
-                widows: '10 (64)'
+                os: '10 (64)'
             }
         },
         {
@@ -57,7 +57,7 @@ const data = {
                 cp: 'i3-4160',
                 hdd: '1 TB',
                 graphics: 'Intel HD Graphics 4400',
-                widows: '10 (64)'
+                os: '10 (64)'
             }
         }
     ],

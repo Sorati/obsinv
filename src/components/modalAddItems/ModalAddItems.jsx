@@ -33,16 +33,16 @@ class ModalAddItems extends React.PureComponent {
         const draw = [];
         switch (chooseCategory) {
             case "pc":
-                draw.push(<Computer key={'pc'}/>);
+                draw.push(<Computer key={'pc'} CollectValue={this.CollectValueForm}/>);
                 break;
             case "monitor":
-                draw.push(<Hardware key={'monitor'}/>);
+                draw.push(<Hardware key={'monitor'} CollectValue={this.CollectValueForm}/>);
                 break;
             case "mouse":
-                draw.push(<Hardware key={'mouse'}/>);
+                draw.push(<Hardware key={'mouse'} CollectValue={this.CollectValueForm}/>);
                 break;
             case "keyboard":
-                draw.push(<Hardware key={'keyboard'}/>);
+                draw.push(<Hardware key={'keyboard'} CollectValue={this.CollectValueForm}/>);
                 break;
             case "person":
                 draw.push(<Person key={'person'} CollectValue={this.CollectValueForm}/>);
@@ -50,7 +50,7 @@ class ModalAddItems extends React.PureComponent {
             default : {}
         }
         if(draw[0]){
-            draw.push(<General key={'general'}/>);
+            draw.push(<General key={'general'} CollectValue={this.CollectValueForm}/>);
         }
         this._clearFieldValue();
         return draw
@@ -69,7 +69,11 @@ class ModalAddItems extends React.PureComponent {
     }
 
     CollectValueForm(evt){
-        console.log(`Value:${evt.target.value} Name:${evt.target.name}`)
+        if(evt.target.type === 'checkbox' && 'ethernet'){
+            console.log(`name:${evt.target.name} checked:${evt.target.checked}`)
+        } else {
+            console.log(`Value:${evt.target.value} Name:${evt.target.name}`)
+        }
     }
 
     render() {
