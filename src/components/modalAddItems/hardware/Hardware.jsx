@@ -12,6 +12,7 @@ class Hardware extends React.PureComponent{
 
                 <label><input name={'inventory'} type="text" placeholder={'Инвентарный'} onChange={CollectValue}/></label>
                 <label><input name={'location'} type="text" placeholder={'Кабинет'} onChange={CollectValue}/></label>
+                <label><input name={'System'} type="text" placeholder={'Система'} onChange={CollectValue}/></label>
             </div>
             <div>
                 <label><input name={'manufacture'} type="text" placeholder={'Наименование'} onChange={CollectValue}/></label>

@@ -8,6 +8,7 @@ const Item = (props) => {
             <div>{props.type}</div>
             <div>{props.name}</div>
             <div>{props.inventory}</div>
+            <div>{props.system}</div>
         </div>
     )
 };

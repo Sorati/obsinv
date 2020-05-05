@@ -11,6 +11,7 @@ class Computer extends React.PureComponent{
                 <label><input name={`responsible`} type="text" placeholder={'Ответственный'} onChange={CollectValue}/></label>
                 <label><input name={`inventory`} type="text" placeholder={'Инвентарный'} onChange={CollectValue}/></label>
                 <label><input name={`location`} type="text" placeholder={'Кабинет'} onChange={CollectValue}/></label>
+                <label><input name={'System'} type="text" placeholder={'Система'} onChange={CollectValue}/></label>
             </div>
             <div>
                 <label><input name={`cp`} type="text" placeholder={'Процессор'} onChange={CollectValue}/></label>

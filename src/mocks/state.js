@@ -2,6 +2,7 @@ const data = {
     pc: [
         {
             id: 1,
+            system: 'Рбочее место №1',
             user: 'Григориев Владимир Владимирович',
             type: 'PC',
             inventory: '01360078',
@@ -22,6 +23,7 @@ const data = {
         },
         {
             id: 2,
+            system: 'Рбочее место №1',
             user: 'Миронинко Валентина Николаевна',
             type: 'PC',
             inventory: '01360065',
@@ -42,6 +44,7 @@ const data = {
         },
         {
             id: 3,
+            system: 'Рбочее место №1',
             user: 'Людмила Манкевич Петровна',
             type: 'PC',
             inventory: '01360064',
@@ -64,6 +67,7 @@ const data = {
     monitor: [
         {
             id: 1,
+            system: 'Рбочее место №1',
             user: 'Людмила Манкевич Петровна',
             type: 'monitor',
             inventory: '01360064',
@@ -77,6 +81,7 @@ const data = {
         },
         {
             id: 2,
+            system: 'Рбочее место №1',
             user: 'Миронинко Валентина Николаевна',
             type: 'monitor',
             inventory: '01360065',
@@ -92,6 +97,7 @@ const data = {
         },
         {
             id: 3,
+            system: 'Рбочее место №1',
             user: 'Григориев Владимир Владимирович',
             type: 'monitor',
             inventory: '01360078',
@@ -107,6 +113,7 @@ const data = {
     mouse: [
         {
             id: 1,
+            system: 'Рбочее место №1',
             user: 'Григориев Владимир Владимирович',
             type: 'mouse',
             inventory: '01360078',
@@ -120,6 +127,7 @@ const data = {
         },
         {
             id: 2,
+            system: 'Рбочее место №1',
             user: 'Миронинко Валентина Николаевна',
             type: 'mouse',
             inventory: '01381643',
@@ -136,6 +144,7 @@ const data = {
         },
         {
             id: 3,
+            system: 'Рбочее место №1',
             user: 'Людмила Манкевич Петровна',
             type: 'mouse',
             inventory: '01360064',
@@ -151,6 +160,7 @@ const data = {
     keyboard: [
         {
             id: 1,
+            system: 'Рбочее место №1',
             user: 'Григориев Владимир Владимирович',
             type: 'keyboard',
             inventory: '01360078',
@@ -164,6 +174,7 @@ const data = {
         },
         {
             id: 2,
+            system: 'Рбочее место №1',
             user: 'Миронинко Валентина Николаевна',
             type: 'keyboard',
             inventory: '01381705',
@@ -180,6 +191,7 @@ const data = {
         },
         {
             id: 3,
+            system: 'Рбочее место №1',
             user: 'Людмила Манкевич Петровна',
             type: 'keyboard',
             inventory: '01360064',

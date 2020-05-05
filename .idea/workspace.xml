@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/Computer/Computer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/Computer/Computer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/ModalAddItems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/general/General.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/general/General.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/hardware/Hardware.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/hardware/Hardware.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mocks/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/state.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,12 +47,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PyCharm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
       <recent name="C:\Users\Egor\PycharmProjects\obsinv\src\components\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Egor\PycharmProjects\obsinv\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,7 +151,9 @@
       <workItem from="1588142182627" duration="778000" />
       <workItem from="1588153677303" duration="719000" />
       <workItem from="1588513549995" duration="5859000" />
-      <workItem from="1588573761343" duration="4751000" />
+      <workItem from="1588573761343" duration="4836000" />
+      <workItem from="1588658658872" duration="614000" />
+      <workItem from="1588677839651" duration="6769000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>
@@ -216,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587563746350</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added callback function in add Items module">
+      <created>1588582337476</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1588582337476</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +253,7 @@
     <MESSAGE value="can add new person (no script)" />
     <MESSAGE value="get properties to person" />
     <MESSAGE value="refactoring and change &quot;add componetn&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and change &quot;add componetn&quot;" />
+    <MESSAGE value="added callback function in add Items module" />
+    <option name="LAST_COMMIT_MESSAGE" value="added callback function in add Items module" />
   </component>
 </project>

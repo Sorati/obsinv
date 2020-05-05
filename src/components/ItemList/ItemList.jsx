@@ -5,23 +5,21 @@ import Item from "./Item/Item";
 const ItemList = (props) => {
     const list = props.date.data;
 
-    // console.log(list);
-    // console.log(list.pc[0].type);
-
     function allList(list) {
         let items = [];
         for (let type in list) {
             const listElement = list[type];
-            if (type === 'person') {
+            if (type !== 'person') {
                 for (let item of listElement) {
                     // console.log(type)
                     items.push(
                         <Item
                             type={`${item.type}`}
-                            // name={`${item.user}`}
-                            name={`${item.fullName}`} //person
-                            // inventory={`${item.inventory}`}
-                            inventory={`${item.location}`} //person
+                            system={`${item.system}`}
+                            name={`${item.user}`}
+                            // name={`${item.fullName}`} //person
+                            inventory={`${item.inventory}`}
+                            // inventory={`${item.location}`} //person
                             key={`${type}${item.id}`}
                         />
                     )
@@ -31,16 +29,19 @@ const ItemList = (props) => {
         return items
     }
 
-    // let qqq = allList(list);
-    // console.log(qqq);
+    function showInfo(){
+
+    }
 
     return (
         <div className={style.content}>
-
-            <Item type={'type'} name={'user'} inventory={'inventory'}/>
-
+            <Item
+                type={`Тип`}
+                system={`Система`}
+                name={`Наименование / Имя`}
+                inventory={`Инвентарный №`}
+            />
             {allList(list)}
-            {/*<Item type={list.pc[0].type} user={list.pc[0].user} inventory={list.pc[0].inventory}/>*/}
         </div>
     )
 };
