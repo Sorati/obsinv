@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29b6f06-ab06-479f-b0b7-89d4190bf5a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Item/Item.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/Computer/Computer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/Computer/Computer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/general/General.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/general/General.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/hardware/Hardware.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/hardware/Hardware.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mocks/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modalAddItems/person/Person.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,6 +153,7 @@
       <workItem from="1588573761343" duration="4836000" />
       <workItem from="1588658658872" duration="614000" />
       <workItem from="1588677839651" duration="6769000" />
+      <workItem from="1590343592466" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="Edit items end next time i will need add keys in item array">
       <created>1585921858801</created>

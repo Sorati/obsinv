@@ -1,10 +1,9 @@
 import React from "react";
 import style from './Hardware.module.css';
 
-class Hardware extends React.PureComponent{
-    render() {
-        const {CollectValue} = this.props;
-        return (
+const Hardware = (props) => {
+    const {CollectValue} = props;
+    return (
         <div className={style.content__Hardware}>
             <div>
                 <label><input name={'user'} type="text" placeholder={'Рабочее место сотрудника'} onChange={CollectValue}/></label>
@@ -22,7 +21,6 @@ class Hardware extends React.PureComponent{
             </div>
         </div>
     )
-    }
-}
+};
 
 export default Hardware;

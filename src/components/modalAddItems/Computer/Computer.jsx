@@ -1,10 +1,9 @@
 import React from "react";
 import style from './Computer.module.css';
 
-class Computer extends React.PureComponent{
-    render() {
-        const {CollectValue} = this.props;
-        return (
+const Computer = (props) => {
+    const {CollectValue} = props;
+    return (
         <div className={style.content__Computer}>
             <div>
                 <label><input name={`user`} type="text" placeholder={'Рабочее место сотрудника'} onChange={CollectValue}/></label>
@@ -22,7 +21,7 @@ class Computer extends React.PureComponent{
                 <label><input name={`ip`} type="text" placeholder={'IP адрес'} onChange={CollectValue}/></label>
                 <label><input name={`os`} type="text" placeholder={'Операционная система'} onChange={CollectValue}/></label>
                 <label className={style.checkbox}><input name={`ethernet`} type="checkbox" onChange={CollectValue}/>
-                <span>Доступ в интерент</span></label>
+                    <span>Доступ в интерент</span></label>
             </div>
             <div>
                 <label><input name={`manufacture`} type="text" placeholder={'Наименование'} onChange={CollectValue}/></label>
@@ -32,7 +31,6 @@ class Computer extends React.PureComponent{
             </div>
         </div>
     )
-    }
-}
+};
 
 export default Computer;
