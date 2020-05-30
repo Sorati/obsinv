@@ -18,7 +18,7 @@ class ModalAddItems extends React.PureComponent {
         this.handlerChooseCategory = this.handlerChooseCategory.bind(this);
         this._getCategory = this._getCategory.bind(this);
         this._getTypeList = this._getTypeList.bind(this);
-        this.CollectValueForm = this.CollectValueForm.bind(this);
+        this._CollectValueForm = this._CollectValueForm.bind(this);
         this._clearFieldValue = this._clearFieldValue.bind(this);
     }
 
@@ -33,24 +33,24 @@ class ModalAddItems extends React.PureComponent {
         const draw = [];
         switch (chooseCategory) {
             case "pc":
-                draw.push(<Computer key={'pc'} CollectValue={this.CollectValueForm}/>);
+                draw.push(<Computer key={'pc'} CollectValue={this._CollectValueForm}/>);
                 break;
             case "monitor":
-                draw.push(<Hardware key={'monitor'} CollectValue={this.CollectValueForm}/>);
+                draw.push(<Hardware key={'monitor'} CollectValue={this._CollectValueForm}/>);
                 break;
             case "mouse":
-                draw.push(<Hardware key={'mouse'} CollectValue={this.CollectValueForm}/>);
+                draw.push(<Hardware key={'mouse'} CollectValue={this._CollectValueForm}/>);
                 break;
             case "keyboard":
-                draw.push(<Hardware key={'keyboard'} CollectValue={this.CollectValueForm}/>);
+                draw.push(<Hardware key={'keyboard'} CollectValue={this._CollectValueForm}/>);
                 break;
             case "person":
-                draw.push(<Person key={'person'} CollectValue={this.CollectValueForm}/>);
+                draw.push(<Person key={'person'} CollectValue={this._CollectValueForm}/>);
                 break;
             default : {}
         }
         if(draw[0]){
-            draw.push(<General key={'general'} CollectValue={this.CollectValueForm}/>);
+            draw.push(<General key={'general'} CollectValue={this._CollectValueForm}/>);
         }
         this._clearFieldValue();
         return draw
@@ -68,7 +68,7 @@ class ModalAddItems extends React.PureComponent {
         this.setState({chooseCategory : evt.target.value});
     }
 
-    CollectValueForm(evt){
+    _CollectValueForm(evt){
         if(evt.target.type === 'checkbox' && 'ethernet'){
             console.log(`name:${evt.target.name} checked:${evt.target.checked}`)
         } else {
@@ -82,13 +82,9 @@ class ModalAddItems extends React.PureComponent {
                 <div className={style.window}>
                     <NavLink className={style.btnClose} to={'/'}>X</NavLink>
                     <div className={style.content}>
-                        <form ref={this.getForm} action="POST" onSubmit={(evn) => {
-                            evn.preventDefault()
-                        }}>
+                        <form ref={this.getForm} action="POST" onSubmit={(evn) => {evn.preventDefault()}}>
                             <label htmlFor="styledSelect1" className={style.customSelect}>
-                                <select name="options" id="styledSelect1" onChange={(env) => {
-                                    this.handlerChooseCategory(env)
-                                }}>
+                                <select name="options" id="styledSelect1" onChange={(env) => {this.handlerChooseCategory(env)}}>
                                     <option value="none" hidden>-</option>
                                     {this._getTypeList()}
                                 </select>

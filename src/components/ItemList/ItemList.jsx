@@ -2,16 +2,21 @@ import React from "react";
 import style from './ItemList.module.css'
 import Item from "./Item/Item";
 
-const ItemList = (props) => {
-    const list = props.date.data;
+class ItemList extends React.PureComponent{
+    constructor(props){
+        super(props);
+        this.list = props.date.data;
+        this._allList = this._allList.bind(this);
+        // this.handlerChoiceItem = this.handlerChoiceItem.bind(this);
+    }
 
-    function allList(list) {
+    _allList(list) {
         let items = [];
         for (let type in list) {
             const listElement = list[type];
             if (type !== 'person') {
                 for (let item of listElement) {
-                    // console.log(type)
+                    // console.log(item.id);
                     items.push(
                         <Item
                             type={`${item.type}`}
@@ -20,7 +25,8 @@ const ItemList = (props) => {
                             // name={`${item.fullName}`} //person
                             inventory={`${item.inventory}`}
                             // inventory={`${item.location}`} //person
-                            key={`${type}${item.id}`}
+                            key={`${item.type}${item.id}`}
+                            id={`${item.type}${item.id}`}
                         />
                     )
                 }
@@ -29,21 +35,26 @@ const ItemList = (props) => {
         return items
     }
 
-    function showInfo(){
-
+    handlerChoiceItem(e) {
+        if(e.target.parentNode.id) {
+            console.log(e.target.parentNode.id)
+        }
     }
 
-    return (
-        <div className={style.content}>
-            <Item
-                type={`Тип`}
-                system={`Система`}
-                name={`Наименование / Имя`}
-                inventory={`Инвентарный №`}
-            />
-            {allList(list)}
-        </div>
-    )
-};
+    render() {
+        return (
+            <div className={style.content} onClick={this.handlerChoiceItem}>
+                <Item
+                    type={`Тип`}
+                    system={`Система`}
+                    name={`Наименование / Имя`}
+                    inventory={`Инвентарный №`}
+                />
+                {this._allList(this.list)}
+            </div>
+        )
+    }
+
+}
 
 export default ItemList;
