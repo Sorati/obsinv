@@ -10,7 +10,7 @@ const Sidebar = ()=> {
     }
     return(
 
-        <aside  className={`${style.sidebar} ${style.sidebarHide}`} ref={sideBar} onClick={test}>
+        <aside  className={`${style.sidebar}`} ref={sideBar} onClick={test}>
             <form action="POST">
                 <label>ФИО птльзователя:<input type="text"/></label>
                 <label>Ответственное лицо:<input type="text"/></label>

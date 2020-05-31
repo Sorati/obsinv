@@ -24,11 +24,3 @@
 label {
 
 }
-
-.sidebarShow {
-    display: flex;
-}
-
-.sidebarHide {
-    display: none;
-}

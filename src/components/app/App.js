@@ -6,16 +6,13 @@ import Sidebar from "../sidebar/Sidebar";
 import ItemList from "../ItemList/ItemList";
 import {BrowserRouter, Route} from "react-router-dom";
 import ModalAddItems from "../modalAddItems/ModalAddItems";
+import {connect} from "react-redux";
+import {ActionCreator} from "../../reducer";
 
 // import Searcher from "../searcher/Searcher";
 
 
 class App extends React.PureComponent {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
-
     render() {
         // console.log(this.props);
 
@@ -38,4 +35,14 @@ class App extends React.PureComponent {
     }
 }
 
-export default App;
+const mapStateToProps = (state) => ({
+    sidebar: state.sidebar,
+});
+
+const mapDispatchToProps = (dispatch) => ({
+    onShowSidebar() {dispatch(ActionCreator.showSidebar())},
+    onHideSidebar() {dispatch(ActionCreator.hideSidebar())}
+});
+
+export {App};
+export default connect(mapStateToProps, mapDispatchToProps)(App);
