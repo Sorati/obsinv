@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./General.module.css"
+import style from "./general.module.css"
 
 const General = (props) => {
     const {CollectValue} = props;

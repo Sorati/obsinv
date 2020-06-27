@@ -1,20 +1,19 @@
 import React from 'react';
 import './App.css';
-import Header from "../header/Header";
-import Main from "../main/Main";
-import Sidebar from "../sidebar/Sidebar";
-import ItemList from "../ItemList/ItemList";
+import Header from "../header/header";
+import StartPage from "../start-page/start-page";
+import PropertiesBar from "../properties-bar/properties-bar";
+import ItemContainer from "../item-container/item-container";
 import {BrowserRouter, Route} from "react-router-dom";
-import ModalAddItems from "../modalAddItems/ModalAddItems";
+import ModalContainer from "../modal-container/modal-container";
 import {connect} from "react-redux";
-import {ActionCreator} from "../../reducer";
+import {ActionCreator} from "../../reducer/properties-bar-reducer";
 
-// import Searcher from "../searcher/Searcher";
+// import Search from "../search/Search";
 
 
 class App extends React.PureComponent {
     render() {
-        // console.log(this.props);
 
         return (
             <div className="App">
@@ -22,13 +21,13 @@ class App extends React.PureComponent {
 
                     <div className="content">
                         <Header/>
-                        <Route exact path={'/'} render={() => <Main/>}/>
-                        <Route exact path={'/Main'} render={() => <Main/>}/>
-                        <Route exact path={'/AllElements'} render={() => <ItemList date={this.props}/>}/>
-                        <Route exact path={'/Add'} render={() => <ModalAddItems date={this.props}/>}/>
+                        <Route exact path={'/'} render={() => <StartPage/>}/>
+                        <Route exact path={'/StartPage'} render={() => <StartPage/>}/>
+                        <Route exact path={'/AllElements'} render={() => <ItemContainer date={this.props}/>}/>
+                        <Route exact path={'/Add'} render={() => <ModalContainer date={this.props}/>}/>
 
                     </div>
-                    <Sidebar/>
+                    {/*<PropertiesBar/>*/}
                 </BrowserRouter>
             </div>
         )
@@ -40,8 +39,12 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    onShowSidebar() {dispatch(ActionCreator.showSidebar())},
-    onHideSidebar() {dispatch(ActionCreator.hideSidebar())}
+    onShowSidebar() {
+        dispatch(ActionCreator.showSidebar());
+    },
+    onHideSidebar() {
+        dispatch(ActionCreator.hideSidebar());
+    }
 });
 
 export {App};

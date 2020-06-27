@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Hardware.module.css';
+import style from './hardware.module.css';
 
 const Hardware = (props) => {
     const {CollectValue} = props;

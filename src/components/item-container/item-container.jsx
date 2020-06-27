@@ -1,8 +1,8 @@
 import React from "react";
-import style from './ItemList.module.css'
-import Item from "./Item/Item";
+import style from './item-container.module.css'
+import Item from "./item/item";
 
-class ItemList extends React.PureComponent{
+class ItemContainer extends React.PureComponent{
     constructor(props){
         super(props);
         this.list = props.date.data;
@@ -57,4 +57,4 @@ class ItemList extends React.PureComponent{
 
 }
 
-export default ItemList;
+export default ItemContainer;

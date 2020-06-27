@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Person.module.css'
+import style from './person.module.css'
 
 const Person = (props) => {
     const {CollectValue} = props;

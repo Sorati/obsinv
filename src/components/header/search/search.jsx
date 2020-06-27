@@ -1,7 +1,7 @@
 import React from "react";
-import style from './Searcher.module.css';
+import style from './search.module.css';
 
-function Searcher () {
+function Search () {
    return (
        <form onSubmit={(evt) => {evt.preventDefault()}} className={style.searcher}>
            <input type="text"/>
@@ -10,4 +10,4 @@ function Searcher () {
    )
 }
 
-export default Searcher;
+export default Search;

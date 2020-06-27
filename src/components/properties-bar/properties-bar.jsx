@@ -1,7 +1,7 @@
 import React from "react";
-import style from './Sidebar.module.css'
+import style from './properties-bar.module.css'
 
-const Sidebar = ()=> {
+const PropertiesBar = ()=> {
     let sideBar = React.createRef();
 
     function test() {
@@ -45,4 +45,4 @@ const Sidebar = ()=> {
     )
 };
 
-export default Sidebar;
+export default PropertiesBar;

@@ -1,0 +1,29 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #353a43;
+    width: 200px;
+    height: 300px;
+    color: #61dafb;
+}
+
+.item img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+.item:hover{
+    transition: .2s linear;
+    /*background-color: #8df472;*/
+    box-shadow: 0 0 14px -3px #61dafb;
+    z-index: 10;
+}
+
+.item p{
+    margin: 10px auto ;
+}

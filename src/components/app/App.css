@@ -38,3 +38,8 @@ body {
   grid-template-columns: minmax(max-content, 1fr);
   gap: 5px;
 }
+
+a, a:hover, a:active, a:focus{
+    text-decoration: none;
+    outline: 0;
+}

@@ -1,22 +1,20 @@
 import React from "react";
 import addElement from '../../add_element.svg';
 import showAllElements from '../../show_element.svg';
-import style from './Main.module.css'
-import CardChoices from './CardChoices/CardChoices'
+import style from './start-page.module.css'
+import Card from './card/card'
 
-const Main = () => {
+const StartPage = () => {
     return (
-        <div className={style.main}>
-            <CardChoices
+        <div className={style.startPage}>
+            <Card
                 item_path={'/Add'}
-                item_style={style.item}
                 img_path={addElement}
                 img_altDescription={'new elemenst'}
                 item_description={'Добавить оборудование'}
             />
-            <CardChoices
+            <Card
                 item_path={'/AllElements'}
-                item_style={style.item}
                 img_path={showAllElements}
                 img_altDescription={'showAllElements'}
                 item_description={'Смотреть все'}
@@ -25,4 +23,4 @@ const Main = () => {
     )
 };
 
-export default Main;
+export default StartPage;

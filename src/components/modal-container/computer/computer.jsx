@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Computer.module.css';
+import style from './computer.module.css';
 
 const Computer = (props) => {
     const {CollectValue} = props;

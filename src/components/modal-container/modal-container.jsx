@@ -1,12 +1,12 @@
 import React from "react";
-import style from './ModalAddItems.module.css'
+import style from './modal-container.module.css'
 import {NavLink} from "react-router-dom";
-import Person from "./person/Person";
-import General from "./general/General";
-import Hardware from "./hardware/Hardware";
-import Computer from "./Computer/Computer"
+import Person from "./person/person";
+import General from "./general/general";
+import Hardware from "./hardware/hardware";
+import Computer from "./computer/computer"
 
-class ModalAddItems extends React.PureComponent {
+class ModalContainer extends React.PureComponent {
     constructor(props) {
         super(props);
         this.data = props.date.data;
@@ -99,4 +99,4 @@ class ModalAddItems extends React.PureComponent {
     }
 }
 
-export default ModalAddItems;
+export default ModalContainer;
