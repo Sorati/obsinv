@@ -1,9 +1,10 @@
 .sidebar {
     background-color: #353a43;
-    width: 300px;
+    min-width: 400px;
+    height: 100vh;
+    overflow: auto;
+
 }
-
-
 
 .sidebar input[type="text"] {
     box-sizing: border-box;
@@ -18,9 +19,25 @@
 .sidebar form{
     display: flex;
     flex-direction: column;
+    justify-content:flex-end;
     margin: 10px;
 }
 
-label {
+.btnClose{
+    background-color: rgba(255, 255, 255, 0);
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+    outline: none;
+    align-self: flex-end;
+    color: #b34046;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 0;
+}
 
+.btnClose:hover, .btnClose:hover {
+    color: #e81a1a;
 }

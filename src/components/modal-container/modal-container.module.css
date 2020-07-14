@@ -23,10 +23,33 @@
 
 .btnClose{
     position: absolute;
-    top: -30px;
+    top: -35px;
     left: 0;
-    color: #b34046;
+    width: 20px;
+    height: 20px;
 }
+
+.btnClose:hover:before, .btnClose:hover:after {
+    background-color: #e81a1a;
+}
+.btnClose:before, .btnClose:after {
+    position: absolute;
+    left: 10px;
+    content: ' ';
+    height: 25px;
+    width: 4px;
+    background-color: #b34046;
+}
+.btnClose:before {
+    transform: rotate(45deg);
+}
+.btnClose:after {
+    transform: rotate(-45deg);
+}
+
+
+
+
 .content {
     /*background-color: #b3d4fc;*/
 }

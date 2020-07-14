@@ -2,20 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/app/App';
-import Mocks from "./mocks/state";
 import * as serviceWorker from './serviceWorker';
-import {propertiesBarReducer} from './reducer/properties-bar-reducer';
+import rootReducers from './store/reducers.js'
 import {createStore} from "redux";
 import {Provider} from "react-redux";
 
 const store = createStore(
-    propertiesBarReducer,
+    rootReducers,
     window.__REDUX_DEVTOOLS_EXTENSION__ ? window.__REDUX_DEVTOOLS_EXTENSION__() : (f) => f
 );
 
 ReactDOM.render(
     <Provider store={store}>
-        <App  data = {Mocks}/>
+        <App/>
     </Provider>,
     document.getElementById('root')
 );

@@ -80,7 +80,7 @@ class ModalContainer extends React.PureComponent {
         return (
             <div className={style.outsude}>
                 <div className={style.window}>
-                    <NavLink className={style.btnClose} to={'/'}>X</NavLink>
+                    <NavLink className={style.btnClose} to={'/'} />
                     <div className={style.content}>
                         <form ref={this.getForm} action="POST" onSubmit={(evn) => {evn.preventDefault()}}>
                             <label htmlFor="styledSelect1" className={style.customSelect}>
